@@ -42,7 +42,7 @@ class ParseCategoriesi28 extends Parsei28 {
     
     public function __invoke($url) {
         $aLinks = [];
-        
+        echo "\r Загрузка главной";
         $document = new Document($url, true);
         $aLinksCategory = $this->getLinksCategory($document);        
         
