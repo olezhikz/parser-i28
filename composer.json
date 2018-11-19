@@ -1,0 +1,20 @@
+{
+    "name": "vendor/parser",
+    "description": "Описание проекта Parser.",
+    "authors": [
+        {
+            "name": "oleg",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "imangazaliev/didom": "1.13",
+        "league/csv": "9.1.4",
+        "stichoza/google-translate-php": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Olezhik\\Parser\\": "src/"
+        }
+    }
+}
